@@ -1,16 +1,33 @@
 body {
-    background-image: url("record.png");
-    background-repeat: repeat;
     margin: 0;
 }
 
-header {
+.background {
+    background-image: url("record.png");
+    background-repeat: repeat;
+}
+
+.up-top {
     background-color: darkblue;
     color: lightgrey;
     text-align: center;
 }
 
-main {
+.primary {
     background-color: lightgrey;
     padding: 1em;
+}
+
+.question {
+    color: salmon;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 span {
+    font-style: italic;
+    color: lightgrey;
+    background-color: darkblue;
 }
